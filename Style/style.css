@@ -1,0 +1,17 @@
+.gopro {
+    height: 800px;
+    width: 47.5%;
+    background-color: rgb(137, 224, 55);
+    background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/99882-200.png);
+    float: left;
+    margin-right: 2.5%;
+}
+
+.drone {
+    height: 800px;
+    width: 47.5%;
+    background-color: rgb(224, 80, 55);
+    background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/78265-200.png);
+    float: left;
+    margin-left: 2.5%;
+}
