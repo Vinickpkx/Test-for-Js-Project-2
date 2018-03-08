@@ -12,29 +12,157 @@
 </head>
 
 <body>
-    <div class="gopro">
-        <center>
-            <button id="delete1">Deletar Gopro</button>
-        </center>
-    </div>
-    <div class="drone">
-        <center>
-            <button id="delete2">Deletar Drone</button>
-        </center>
-    </div>
     <center>
-        <button id="delte" onclick="excluirElm()">Limpar</button>
-        <p>
-            <input type="checkbox" name="delete" id="goPro"> GoPro
-            <br>
-            <input type="checkbox" name="delete" id="drone"> Drone
-            <br>
-        </p>
+        <div id="delJquerty">
+            <h1>JQUERTY</h1>
+            <div class="gopro1 icon">
+                <center>
+                    <br><br><br><br><br><br>
+                    <button class="btn btn-dark" id="delete1">Deletar Gopro</button>
+                </center>
+            </div>
+            <div class="drone1 icon">
+                <center>
+                    <br><br><br><br><br><br>
+                    <button class="btn btn-dark" id="delete2">Deletar Gopro</button>
+                </center>
+            </div>
+            <div class="motherBoard1 icon">
+                <center>
+                    <br><br><br><br><br><br>
+                    <button class="btn btn-dark" id="delete3">Deletar MotherBoard</button>
+                </center>
+            </div>
+        </div>
     </center>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-    <script src="Js/script.js"></script>
+    <div id="delJs">
+        <center>
+            <h1>JAVASCRIPT SEARCH</h1>
+        </center>
+        <div id="javaShow" class="col-md-11">
+            <div class="gopro icon">
+            </div>
+            <div class="motherBoard icon">
+            </div>
+            <div class="gopro icon">
+            </div>
+            <div class="motherBoard icon">
+            </div>
+            <div class="gopro icon">
+            </div>
+            <div class="motherBoard icon">
+            </div>
+            <div class="gopro icon">
+            </div>
+            <div class="motherBoard icon">
+            </div>
+            <div class="drone icon">
+            </div>
+            <div class="gopro icon">
+            </div>
+            <div class="motherBoard icon">
+            </div>
+            <div class="motherBoard icon">
+            </div>
+            <div class="drone icon">
+            </div>
+            <div class="gopro icon">
+            </div>
+            <div class="drone icon">
+            </div>
+            <div class="drone icon">
+            </div>
+            <div class="motherBoard icon">
+            </div>
+            <div class="gopro icon">
+            </div>
+            <div class="motherBoard icon">
+            </div>
+            <div class="gopro icon">
+            </div>
+            <div class="gopro icon">
+            </div>
+        </div>
+        <div class="col-md-1">
+            <br><br>
+            <center>
+                <button class="btn btn-dark" id="delte" onclick="procurarElm()">Search</button>
+                <p>
+                    <input type="radio" name="delete" id="goPro"> GoPro
+                    <br>
+                    <input type="radio" name="delete" id="drone"> Drone
+                    <br>
+                    <input type="radio" name="delete" id="motherBoard"> MotherBoard
+                </p>
+                <button class="btn btn-dark" id="delte" onclick="reload()">Reset</button>
+            </center>
+        </div>
+        <div id="delJs">
+            <center>
+                <h1>JAVASCRIPT DELETE</h1>
+            </center>
+            <div id="javaShowDel" class="col-md-11">
+                <div class="goProDel icon">
+                </div>
+                <div class="motherBoardDel icon">
+                </div>
+                <div class="goProDel icon">
+                </div>
+                <div class="motherBoardDel icon">
+                </div>
+                <div class="goProDel icon">
+                </div>
+                <div class="motherBoardDel icon">
+                </div>
+                <div class="goProDel icon">
+                </div>
+                <div class="motherBoardDel icon">
+                </div>
+                <div class="droneDel icon">
+                </div>
+                <div class="goProDel icon">
+                </div>
+                <div class="motherBoardDel icon">
+                </div>
+                <div class="motherBoardDel icon">
+                </div>
+                <div class="droneDel icon">
+                </div>
+                <div class="goProDel icon">
+                </div>
+                <div class="droneDel icon">
+                </div>
+                <div class="droneDel icon">
+                </div>
+                <div class="motherBoardDel icon">
+                </div>
+                <div class="goProDel icon">
+                </div>
+                <div class="motherBoardDel icon">
+                </div>
+                <div class="goProDel icon">
+                </div>
+                <div class="goProDel icon">
+                </div>
+            </div>
+            <div class="col-md-1">
+                <br><br>
+                <center>
+                    <button class="btn btn-dark" id="delte" onclick="excluirElm()">Delete</button>
+                    <p>
+                        <input type="radio" name="delete" id="goProDel"> GoPro
+                        <br>
+                        <input type="radio" name="delete" id="droneDel"> Drone
+                        <br>
+                        <input type="radio" name="delete" id="motherBoardDel"> MotherBoard
+                    </p>
+                    <button class="btn btn-dark" id="delte" onclick="reload()">Reset</button>
+                </center>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+            <script src="Js/script.js"></script>
 </body>
 
 </html>

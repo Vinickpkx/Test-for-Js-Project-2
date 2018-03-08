@@ -1,17 +1,84 @@
+body {
+    background-color: rgb(176, 180, 238);
+}
+
+.gopro1 {
+    background-color: rgb(224, 213, 55);
+    background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/99882-200.png);
+}
+
+.drone1 {
+    background-color: rgb(199, 55, 224);
+    background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/78265-200.png);
+}
+
+.motherBoard1 {
+    background-color: rgb(55, 224, 215);
+    background-image: url(https://cdn2.iconfinder.com/data/icons/picons-basic-3/57/basic3-104_chip_64_bit_semiconductor-256.png);
+}
+
 .gopro {
-    height: 800px;
-    width: 47.5%;
     background-color: rgb(137, 224, 55);
     background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/99882-200.png);
-    float: left;
-    margin-right: 2.5%;
 }
 
 .drone {
-    height: 800px;
-    width: 47.5%;
     background-color: rgb(224, 80, 55);
     background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/78265-200.png);
+}
+
+.motherBoard {
+    background-color: rgb(66, 55, 224);
+    background-image: url(https://cdn2.iconfinder.com/data/icons/picons-basic-3/57/basic3-104_chip_64_bit_semiconductor-256.png);
+}
+
+.goProDel {
+    background-color: rgb(55, 224, 134);
+    background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/99882-200.png);
+}
+
+.droneDel {
+    background-color: rgb(224, 159, 55);
+    background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/78265-200.png);
+}
+
+.motherBoardDel {
+    background-color: rgb(142, 55, 224);
+    background-image: url(https://cdn2.iconfinder.com/data/icons/picons-basic-3/57/basic3-104_chip_64_bit_semiconductor-256.png);
+}
+
+.icon {
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
     float: left;
-    margin-left: 2.5%;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+#delJquerty {
+    height: 400px;
+    width: 660PX;
+}
+
+@font-face {
+    font-family: COMPUTERRobot;
+    src: url(COMPUTERRobot.ttf);
+}
+
+h1 {
+    font-family: COMPUTERRobot;
+}
+
+.col-md-11 {
+    margin: 0px;
+    height: 630px;
+    float: left;
+}
+
+.col-md-1 {
+    margin: 0px;
+    float: left;
+    height: 630px;
+    padding: 0px;
 }
